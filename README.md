@@ -9,7 +9,7 @@
 
 兩篇共 12 個可旋轉、縮放、點選及拆解的 3D 場景。部件按鈕提供鍵盤與 WebGL 不可用時的替代入口。模型是技術概念示意，不是實際產品比例、設備光路、廠房配置或生產配方。
 
-**AI 基礎建設**：31 組名詞，涵蓋晶圓、N2、CoWoS、HBM、IC 載板、ABF、PCB、CCL、玻纖布、銅箔、鑽孔、Vera Rubin、機櫃、高速互連、光通訊、800V HVDC、供電及液冷。每組說明台積電與 NVIDIA 的角色、研究問題、常見誤解、台股領域代表和来源。另含 54V／800V 電流實驗與封裝結構互動。
+**AI 基礎建設**：31 組名詞，涵蓋晶圓、N2、CoWoS、HBM、IC 載板、ABF、PCB、CCL、玻纖布、銅箔、鑽孔、Vera Rubin、機櫃、高速互連、光通訊、800V HVDC、供電及液冷。每組說明台積電與 NVIDIA 的角色、研究問題、常見誤解、台股領域代表和來源。另含 54V／800V 電流實驗與封裝結構互動。
 
 **製程與成本**：62 個條目，涵蓋製程、原材料、化學品、設備、耗材、廠務、公用系統、人員，以及 CAPEX、CIP、折舊、成本池、BOM、routing、WIP、標準成本、正常產能、良率、委外及客供料等。成本模擬可調整產量、良率、固定及變動成本；交易情境展示成本流轉。
 
@@ -31,11 +31,28 @@
 
 實作使用 **Three.js 0.180.0 + OrbitControls**，隨站附帶固定版本與 MIT 授權，不依賴外部 CDN。原創幾何依教學對象生成，重複部件以 InstancedMesh 合批；限制像素倍率，畫面離開可視區時停止渲染。支援行動版、鍵盤、減少動態效果偏好與文字替代入口。
 
+## 手機閱讀與操作
+
+同一網址依螢幕與觸控能力調整，不需切換到另一個手機站。以 iPhone 直向閱讀為優先，並保留橫向安全邊界。
+
+- 預設可直接滑過模型區域；點「操作 3D」後，單指旋轉、雙指縮放。點「完成操作」恢復滑頁。
+- 手機點選部件會先開啟底部解說面板，再由面板深入下一層。可關閉後回到原本位置；不支援原生 dialog 的瀏覽器保留頁內解說。
+- 主要按鈕與滑桿保留至少 44 CSS px 的觸控高度，搜尋與數值欄位使用 16px 字級。保留頁面放大能力。
+- 成本假設可拖曳或輸入數值；編輯時上方保留每片存貨成本與每顆良品經濟成本的摘要，計算邊界與完整公式仍在結果區。
+- 運用安全區域與動態視窗高度，降低瀏海、Home 指示條及 Safari 工具列遮擋的影響。
+
+參考：[WebKit iPhone 安全區域](https://webkit.org/blog/7929/designing-websites-for-iphone-x/)、[MDN touch-action](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/touch-action)、[原生 dialog](https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement/showModal)。
+
+## 簡明語言編修
+
+依 [ISO 24495-1:2023](https://www.iso.org/standard/78907.html) 的公開原則與 [International Plain Language Federation 說明](https://www.iplfederation.org/iso-standard/) 微調文案，讓目標讀者較容易找到、理解及運用需要的資訊。以部件用途開頭、縮寫加解釋、拆分長句，並保留來源、技術條件與會計適用限制。這是編輯原則的應用，不是 ISO 認證或完整符合性聲明。
+
 ## 結構與維護
 
 - `dist/index.html`, `dist/data.js`, `dist/app.js`：任務一。
 - `dist/tsmc-cost/`：任務二。
 - `dist/scene.js`, `dist/cost-scenes.js`：共用 3D 場景與製程模型。
+- `dist/mobile.css`, `dist/mobile.js`：兩篇共用的觸控、手機排版、部件面板與試算輸入。
 - `dist/vendor/`：固定版本 Three.js。
 - `scripts/validate.mjs`：資料、資產、公式及 3D 幾何檢查。
 
