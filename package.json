@@ -1,0 +1,8 @@
+{
+  "name": "ai-infra-academy",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Traditional Chinese interactive AI infrastructure and semiconductor cost-accounting field guide",
+  "scripts": { "test": "node scripts/validate.mjs" }
+}
