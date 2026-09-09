@@ -4,6 +4,26 @@ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),dist=
 const read=p=>fs.readFileSync(path.join(dist,p),'utf8');
 const data={};for(const sub of ['', 'tsmc-cost/']){const w={};w.window=w;vm.runInNewContext(read(sub+'data.js'),w);data[sub]=w;const sources=w.SOURCES||w.COST_SOURCES,companies=w.COMPANIES||w.COST_COMPANIES;assert.equal(new Set(w.TERMS.map(t=>t.id)).size,w.TERMS.length);for(const t of w.TERMS){assert(t.title&&t.body&&t.sources.length);for(const id of t.sources)assert(sources[id],`${t.id}: missing source ${id}`);for(const id of t.companies)assert(companies[id],`${t.id}: missing company ${id}`);for(const id of t.related)assert(w.TERMS.some(t=>t.id===id),`${t.id}: missing related ${id}`)}for(const [id,c]of Object.entries(companies)){assert(sources[c[4]],'missing company source '+id);assert(/^\d{4}$/.test(c[1]));}for(const s of Object.values(sources))assert.equal(new URL(s[1]).protocol,'https:');
  const html=read(sub+'index.html');const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size,'duplicate DOM IDs');for(const m of html.matchAll(/\b(?:src|href)="([^"]+)"/g)){const u=m[1];if(u.startsWith('#')||/^https?:/.test(u))continue;assert(fs.existsSync(path.resolve(dist,sub,u)),'missing asset '+u)}console.log(`${sub||'infra/'}: ${w.TERMS.length} terms and source links valid`)}
+// Every displayed company role must have a source, and the downloadable audit must match the page.
+const audit=JSON.parse(read('company-audit.json')),expected=[];
+for(const [sub,w] of Object.entries(data)){
+ const companies=w.COMPANIES||w.COST_COMPANIES,sources=w.SOURCES||w.COST_SOURCES;
+ assert.equal(new Set(Object.values(companies).map(c=>c[1])).size,Object.keys(companies).length,'duplicate company codes');
+ for(const t of w.TERMS){
+  assert.equal(new Set(t.companies).size,t.companies.length,'duplicate company in '+t.id);
+  for(const id of t.companies){
+   const c=companies[id],keys=t.companySources?.[id];
+   assert(t.companyRoles?.[id]?.trim(),'missing role '+t.id+'/'+id);
+   assert(keys?.length,'missing role evidence '+t.id+'/'+id);
+   for(const key of keys)assert(sources[key],'missing evidence '+key);
+   assert(['上市','上櫃'].includes(c[2]),'invalid market '+c[1]);
+   expected.push({chapter:sub?'cost':'infra',term:t.id,company:c[0],code:c[1],market:c[2],role:t.companyRoles[id],sources:Array.from(keys,key=>({title:sources[key][0],url:sources[key][1]}))});
+  }
+ }
+}
+assert.deepEqual(audit.rows,expected,'downloaded company audit differs from displayed data');
+assert.equal(new Set(audit.rows.map(r=>[r.chapter,r.term,r.code].join('/'))).size,audit.rows.length);
+console.log(`${new Set(audit.rows.map(r=>r.code)).size} companies: ${audit.rows.length} sourced role mappings and public audit valid`);
 for(const dir of [dist,path.join(dist,'tsmc-cost')])for(const f of fs.readdirSync(dir))if(f.endsWith('.js'))execFileSync(process.execPath,['--check',path.join(dir,f)],{stdio:'pipe'});
 // Run the production geometry builders with real Three.js in Node, without WebGL or a browser.
 const source=read('scene.js'),geometry=source.slice(source.indexOf('const palette='),source.indexOf('function setExplode'));

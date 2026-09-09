@@ -1,0 +1,3001 @@
+{
+  "reviewed": "2026-09-09",
+  "marketSnapshot": "2026-09-08",
+  "marketSources": [
+    "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+    "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap03_O"
+  ],
+  "method": "以產業地圖辨認位置，以公司產品／服務資料確認條目角色，另以交易所掛牌名錄核對。代表公司不是完整名單，也不代表特定平台供應關係。",
+  "rows": [
+    {
+      "chapter": "infra",
+      "term": "wafer",
+      "company": "環球晶",
+      "code": "6488",
+      "market": "上櫃",
+      "role": "材料製造｜半導體矽晶圓原片",
+      "sources": [
+        {
+          "title": "環球晶｜產品",
+          "url": "https://www.sas-globalwafers.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "wafer",
+      "company": "台積電",
+      "code": "2330",
+      "market": "上市",
+      "role": "晶圓代工｜在購入的矽晶圓上製造電路；與原片材料廠不同",
+      "sources": [
+        {
+          "title": "台積電｜N2 製程",
+          "url": "https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "wafer",
+      "company": "中美晶",
+      "code": "5483",
+      "market": "上櫃",
+      "role": "透過環球晶參與半導體矽晶圓，屬集團投資的間接環節",
+      "sources": [
+        {
+          "title": "中美晶｜公司簡介與集團分工",
+          "url": "https://www.saswafer.com/profile-tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "wafer",
+      "company": "台勝科",
+      "code": "3532",
+      "market": "上市",
+      "role": "半導體矽晶圓原料製造；非晶圓代工",
+      "sources": [
+        {
+          "title": "台勝科｜公司沿革與矽晶圓製造",
+          "url": "https://www.fstech.com.tw/FPC_Fstech_Web/about_fst.html?page=pills-story"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "wafer",
+      "company": "合晶",
+      "code": "6182",
+      "market": "上櫃",
+      "role": "材料製造｜半導體拋光矽晶圓與磊晶矽晶圓；不是邏輯晶圓代工",
+      "sources": [
+        {
+          "title": "合晶｜產品與客製化服務",
+          "url": "https://www.waferworks.com/tw/products-and-service/service"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "n2",
+      "company": "台積電",
+      "code": "2330",
+      "market": "上市",
+      "role": "晶圓代工｜N2奈米片製程開發與製造服務",
+      "sources": [
+        {
+          "title": "台積電｜N2 製程",
+          "url": "https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "gpu",
+      "company": "台積電",
+      "code": "2330",
+      "market": "上市",
+      "role": "製造服務｜GPU／CPU晶圓代工及先進封裝；不設計NVIDIA指令架構",
+      "sources": [
+        {
+          "title": "台積電｜N2 製程",
+          "url": "https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm"
+        },
+        {
+          "title": "台積電｜CoWoS 技術",
+          "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "asic",
+      "company": "創意",
+      "code": "3443",
+      "market": "上市",
+      "role": "設計服務｜ASIC設計、IP整合與量產管理",
+      "sources": [
+        {
+          "title": "創意｜ASIC 設計服務",
+          "url": "https://www.guc-asic.com/en"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "asic",
+      "company": "台積電",
+      "code": "2330",
+      "market": "上市",
+      "role": "製造服務｜客製晶片的晶圓代工與先進封裝；不是ASIC設計服務商",
+      "sources": [
+        {
+          "title": "台積電｜N2 製程",
+          "url": "https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm"
+        },
+        {
+          "title": "台積電｜CoWoS 技術",
+          "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "asic",
+      "company": "世芯-KY",
+      "code": "3661",
+      "market": "上市",
+      "role": "客製ASIC／SoC設計及量產管理服務；非自有晶圓代工",
+      "sources": [
+        {
+          "title": "世芯｜ASIC Design Services",
+          "url": "https://www.alchip.com/en/ASIC_Turnkey_Solutions/ASIC_Design_Services"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "asic",
+      "company": "智原",
+      "code": "3035",
+      "market": "上市",
+      "role": "ASIC設計服務、IP整合及量產支援",
+      "sources": [
+        {
+          "title": "智原｜ASIC Design Service",
+          "url": "https://www.faraday-tech.com/en/entry/ASICService"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "asic",
+      "company": "M31",
+      "code": "6643",
+      "market": "上櫃",
+      "role": "提供晶片設計所需矽智財IP；非完整ASIC量產代工商",
+      "sources": [
+        {
+          "title": "M31｜SerDes PHY IP",
+          "url": "https://www.m31tech.com/product/serdes-10g-5g/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "asic",
+      "company": "聯發科",
+      "code": "2454",
+      "market": "上市",
+      "role": "設計服務｜資料中心客製ASIC、IP整合與量產支援",
+      "sources": [
+        {
+          "title": "聯發科｜Data Center ASIC Solutions",
+          "url": "https://www.mediatek.com/mediatek-asic"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "cowos",
+      "company": "台積電",
+      "code": "2330",
+      "market": "上市",
+      "role": "平台／製造｜CoWoS技術開發與先進封裝服務",
+      "sources": [
+        {
+          "title": "台積電｜CoWoS 技術",
+          "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "cowos",
+      "company": "日月光投控",
+      "code": "3711",
+      "market": "上市",
+      "role": "封裝／測試｜先進封裝生態相關服務；不可將所有日月光業務等同CoWoS",
+      "sources": [
+        {
+          "title": "日月光投控｜集團業務",
+          "url": "https://www.aseglobal.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "interposer",
+      "company": "台積電",
+      "code": "2330",
+      "market": "上市",
+      "role": "製程／封裝｜中介層與多裸晶整合平台",
+      "sources": [
+        {
+          "title": "台積電｜CoWoS 技術",
+          "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "interposer",
+      "company": "日月光投控",
+      "code": "3711",
+      "market": "上市",
+      "role": "封裝／測試｜多晶片整合及先進封裝",
+      "sources": [
+        {
+          "title": "日月光投控｜集團業務",
+          "url": "https://www.aseglobal.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "hbm",
+      "company": "台積電",
+      "code": "2330",
+      "market": "上市",
+      "role": "封裝整合｜把HBM與運算裸晶整合；不是HBM DRAM晶粒製造商",
+      "sources": [
+        {
+          "title": "台積電｜CoWoS 技術",
+          "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "hbm",
+      "company": "日月光投控",
+      "code": "3711",
+      "market": "上市",
+      "role": "封裝／測試生態｜先進封裝及測試的相關環節；不代表已承接特定HBM4產品",
+      "sources": [
+        {
+          "title": "日月光投控｜集團業務",
+          "url": "https://www.aseglobal.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "substrate",
+      "company": "欣興",
+      "code": "3037",
+      "market": "上市",
+      "role": "IC封裝載板製造",
+      "sources": [
+        {
+          "title": "欣興｜產品與品質管理、ABF載板案例",
+          "url": "https://www.uniflex.com.tw/esg/en/product01.html"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "substrate",
+      "company": "南電",
+      "code": "8046",
+      "market": "上市",
+      "role": "IC封裝載板製造",
+      "sources": [
+        {
+          "title": "南電｜ABF載板技術路線圖",
+          "url": "https://www.nanyapcb.com.tw/nypcb/chinese/Technology/ABFSRoadmap"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "substrate",
+      "company": "景碩",
+      "code": "3189",
+      "market": "上市",
+      "role": "材料製造｜IC封裝載板",
+      "sources": [
+        {
+          "title": "景碩｜FCBGA 載板",
+          "url": "https://www.kinsus.com.tw/en/product/products/technologies/fcbga"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "abf",
+      "company": "欣興",
+      "code": "3037",
+      "market": "上市",
+      "role": "ABF載板製造；非ABF絕緣膜原料",
+      "sources": [
+        {
+          "title": "欣興｜產品與品質管理、ABF載板案例",
+          "url": "https://www.uniflex.com.tw/esg/en/product01.html"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "abf",
+      "company": "南電",
+      "code": "8046",
+      "market": "上市",
+      "role": "ABF載板製造；非ABF絕緣膜原料",
+      "sources": [
+        {
+          "title": "南電｜ABF載板技術路線圖",
+          "url": "https://www.nanyapcb.com.tw/nypcb/chinese/Technology/ABFSRoadmap"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "abf",
+      "company": "景碩",
+      "code": "3189",
+      "market": "上市",
+      "role": "載板製造｜採用ABF絕緣膜的FC-BGA載板；不是ABF膜原料廠",
+      "sources": [
+        {
+          "title": "景碩｜FCBGA 載板",
+          "url": "https://www.kinsus.com.tw/en/product/products/technologies/fcbga"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "pcb",
+      "company": "金像電",
+      "code": "2368",
+      "market": "上市",
+      "role": "伺服器與網通PCB製造",
+      "sources": [
+        {
+          "title": "金像電子｜產品應用",
+          "url": "https://www.gce.com.tw/product.html"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "pcb",
+      "company": "健鼎",
+      "code": "3044",
+      "market": "上市",
+      "role": "板廠｜多層PCB",
+      "sources": [
+        {
+          "title": "健鼎｜PCB 產品",
+          "url": "https://www.tripod-tech.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "pcb",
+      "company": "華通",
+      "code": "2313",
+      "market": "上市",
+      "role": "板廠｜多層PCB及HDI電路板",
+      "sources": [
+        {
+          "title": "華通｜PCB 簡介",
+          "url": "https://www.compeq.com.tw/product01.php"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "pcb",
+      "company": "欣興",
+      "code": "3037",
+      "market": "上市",
+      "role": "印刷電路板製造",
+      "sources": [
+        {
+          "title": "欣興｜產品與品質管理、ABF載板案例",
+          "url": "https://www.uniflex.com.tw/esg/en/product01.html"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "pcb",
+      "company": "博智",
+      "code": "8155",
+      "market": "上櫃",
+      "role": "伺服器、交換器與測試用PCB製造",
+      "sources": [
+        {
+          "title": "博智｜產品與應用",
+          "url": "https://www.accl.com.tw/tw/modules/pages/main"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "ccl",
+      "company": "台光電",
+      "code": "2383",
+      "market": "上市",
+      "role": "銅箔基板與預浸材製造",
+      "sources": [
+        {
+          "title": "台光電｜材料與產品定位",
+          "url": "https://www.emctw.com/zh-TW/about_milestone/index"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "ccl",
+      "company": "台燿",
+      "code": "6274",
+      "market": "上櫃",
+      "role": "銅箔基板及預浸材",
+      "sources": [
+        {
+          "title": "台燿｜ThunderClad 5R材料",
+          "url": "https://www.tuc.com.tw/en-us/products-detail/id/53"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "ccl",
+      "company": "聯茂",
+      "code": "6213",
+      "market": "上市",
+      "role": "銅箔基板與預浸材等電子基材",
+      "sources": [
+        {
+          "title": "聯茂｜低損耗材料產品",
+          "url": "https://www.iteqcorp.com/product/product/?lang=en"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "ccl",
+      "company": "南亞",
+      "code": "1303",
+      "market": "上市",
+      "role": "銅箔基板製造；屬多元業務之一",
+      "sources": [
+        {
+          "title": "南亞｜公司概況：電子材料",
+          "url": "https://www.npc.com.tw/j2npc/zhtw/company_highlights.jsp"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "glass",
+      "company": "富喬",
+      "code": "1815",
+      "market": "上櫃",
+      "role": "電子級玻纖紗，供玻纖布與PCB基材使用",
+      "sources": [
+        {
+          "title": "富喬｜玻纖紗產品",
+          "url": "https://www.ffg.com.tw/product1.asp"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "glass",
+      "company": "台玻",
+      "code": "1802",
+      "market": "上市",
+      "role": "CCL用玻纖紗／布；不等同玻璃核心載板",
+      "sources": [
+        {
+          "title": "台玻｜玻璃纖維布產品介紹",
+          "url": "https://www.taiwanglass.com/index.php?langeno=tw"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "glass",
+      "company": "南亞",
+      "code": "1303",
+      "market": "上市",
+      "role": "玻纖紗／布材料",
+      "sources": [
+        {
+          "title": "南亞｜公司概況：電子材料",
+          "url": "https://www.npc.com.tw/j2npc/zhtw/company_highlights.jsp"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "glass",
+      "company": "建榮",
+      "code": "5340",
+      "market": "上櫃",
+      "role": "CCL用電子級玻纖布製造",
+      "sources": [
+        {
+          "title": "建榮｜電子玻璃纖維布",
+          "url": "https://www.baotek.com.tw/index.php?action=pro4"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "copper",
+      "company": "金居",
+      "code": "8358",
+      "market": "上櫃",
+      "role": "電子級電解銅箔；PCB／CCL的導電材料",
+      "sources": [
+        {
+          "title": "金居｜電解銅箔與用途",
+          "url": "https://www.co-tech.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "copper",
+      "company": "南亞",
+      "code": "1303",
+      "market": "上市",
+      "role": "電子級銅箔材料",
+      "sources": [
+        {
+          "title": "南亞｜公司概況：電子材料",
+          "url": "https://www.npc.com.tw/j2npc/zhtw/company_highlights.jsp"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "copper",
+      "company": "榮科",
+      "code": "4989",
+      "market": "上市",
+      "role": "材料製造｜PCB／CCL用電解銅箔，含低粗糙度產品",
+      "sources": [
+        {
+          "title": "榮科｜電解銅箔產品",
+          "url": "https://lcyt.lcycic.com/zh/product/interconnect"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "dkdf",
+      "company": "台光電",
+      "code": "2383",
+      "market": "上市",
+      "role": "提供不同低損耗等級的板材",
+      "sources": [
+        {
+          "title": "台光電｜材料與產品定位",
+          "url": "https://www.emctw.com/zh-TW/about_milestone/index"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "dkdf",
+      "company": "台燿",
+      "code": "6274",
+      "market": "上櫃",
+      "role": "低介電損耗材料",
+      "sources": [
+        {
+          "title": "台燿｜ThunderClad 5R材料",
+          "url": "https://www.tuc.com.tw/en-us/products-detail/id/53"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "dkdf",
+      "company": "聯茂",
+      "code": "6213",
+      "market": "上市",
+      "role": "低損耗板材產品",
+      "sources": [
+        {
+          "title": "聯茂｜低損耗材料產品",
+          "url": "https://www.iteqcorp.com/product/product/?lang=en"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "drilling",
+      "company": "大量",
+      "code": "3167",
+      "market": "上市",
+      "role": "PCB鑽孔與深度量測設備；非鑽針耗材",
+      "sources": [
+        {
+          "title": "大量｜PCB鑽孔機產品",
+          "url": "https://www.tlhome.com.tw/category/1?sub=3"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "drilling",
+      "company": "東台",
+      "code": "4526",
+      "market": "上市",
+      "role": "PCB機械鑽孔設備；非鑽針耗材",
+      "sources": [
+        {
+          "title": "東台｜數控電路板鑽孔機",
+          "url": "https://www.tongtaimachinetool.com/products/Electronics-Processing/PCB-Drilling-Machine/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "drilling",
+      "company": "尖點",
+      "code": "8021",
+      "market": "上市",
+      "role": "鑽針／銑刀耗材及機械、雷射鑽孔加工服務；非鑽孔機設備廠",
+      "sources": [
+        {
+          "title": "尖點｜鑽針產品與鑽孔服務",
+          "url": "https://www.topoint.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "hdi",
+      "company": "華通",
+      "code": "2313",
+      "market": "上市",
+      "role": "板廠｜HDI與多層電路板",
+      "sources": [
+        {
+          "title": "華通｜PCB 簡介",
+          "url": "https://www.compeq.com.tw/product01.php"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "hdi",
+      "company": "健鼎",
+      "code": "3044",
+      "market": "上市",
+      "role": "板廠｜多層PCB；高層數不自動代表所有產品都是HDI",
+      "sources": [
+        {
+          "title": "健鼎｜PCB 產品",
+          "url": "https://www.tripod-tech.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "hdi",
+      "company": "欣興",
+      "code": "3037",
+      "market": "上市",
+      "role": "HDI高密度互連板製造",
+      "sources": [
+        {
+          "title": "欣興｜產品與品質管理、ABF載板案例",
+          "url": "https://www.uniflex.com.tw/esg/en/product01.html"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "hdi",
+      "company": "金像電",
+      "code": "2368",
+      "market": "上市",
+      "role": "高多層與HDI電路板製造",
+      "sources": [
+        {
+          "title": "金像電子｜產品應用",
+          "url": "https://www.gce.com.tw/product.html"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "hdi",
+      "company": "博智",
+      "code": "8155",
+      "market": "上櫃",
+      "role": "多層板及HDI製造；高層數與HDI為不同規格維度",
+      "sources": [
+        {
+          "title": "博智｜產品與應用",
+          "url": "https://www.accl.com.tw/tw/modules/pages/main"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "rack",
+      "company": "勤誠",
+      "code": "8210",
+      "market": "上市",
+      "role": "機構件｜伺服器機殼及機櫃結構；與裝好GPU的整櫃系統不同",
+      "sources": [
+        {
+          "title": "勤誠｜伺服器機構產品",
+          "url": "https://www.chenbro.com/en-US"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "rack",
+      "company": "廣達",
+      "code": "2382",
+      "market": "上市",
+      "role": "系統設計／製造｜伺服器及整櫃整合",
+      "sources": [
+        {
+          "title": "QCT｜AI 基礎建設",
+          "url": "https://www.qct.io/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "rack",
+      "company": "緯穎",
+      "code": "6669",
+      "market": "上市",
+      "role": "系統設計／製造｜伺服器及整櫃整合",
+      "sources": [
+        {
+          "title": "緯穎｜資料中心解決方案",
+          "url": "https://www.wiwynn.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "rack",
+      "company": "緯創",
+      "code": "3231",
+      "market": "上市",
+      "role": "AI伺服器與系統整合；與純機殼製造分開",
+      "sources": [
+        {
+          "title": "緯創｜Enterprise & Networking",
+          "url": "https://www.wistron.com/en/Product%26Services/Enterprise%26Networking"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "rack",
+      "company": "英業達",
+      "code": "2356",
+      "market": "上市",
+      "role": "Artemis整櫃系統與液冷整合",
+      "sources": [
+        {
+          "title": "英業達｜Artemis Rack",
+          "url": "https://ebg.inventec.com/en/solution/NVIDIA/Artemis%20%20Rack"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "rack",
+      "company": "技嘉",
+      "code": "2376",
+      "market": "上市",
+      "role": "GIGAPOD整櫃／多櫃叢集系統",
+      "sources": [
+        {
+          "title": "技嘉｜GIGAPOD",
+          "url": "https://www.gigabyte.com/Solutions/gigapod"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "rack",
+      "company": "營邦",
+      "code": "3693",
+      "market": "上櫃",
+      "role": "GPU／儲存伺服器平台；不能直接稱NVL整櫃量產商",
+      "sources": [
+        {
+          "title": "營邦 AIC｜GPU Server",
+          "url": "https://www.aicipc.com/products/server/gpu-server/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "rack",
+      "company": "晟銘電",
+      "code": "3013",
+      "market": "上市",
+      "role": "伺服器機殼、機構件及機櫃，與運算整櫃系統商區分",
+      "sources": [
+        {
+          "title": "晟銘電 UNEEC｜Clone Server",
+          "url": "https://www.uneec.com/en/products/18050411210111"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "rubin",
+      "company": "台積電",
+      "code": "2330",
+      "market": "上市",
+      "role": "晶圓／封裝製造環節｜平台名稱不能直接推定採用N2",
+      "sources": [
+        {
+          "title": "台積電｜CoWoS 技術",
+          "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "rubin",
+      "company": "廣達",
+      "code": "2382",
+      "market": "上市",
+      "role": "系統設計／製造｜伺服器及整櫃整合",
+      "sources": [
+        {
+          "title": "QCT｜AI 基礎建設",
+          "url": "https://www.qct.io/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "rubin",
+      "company": "緯穎",
+      "code": "6669",
+      "market": "上市",
+      "role": "系統設計／製造｜伺服器及整櫃整合",
+      "sources": [
+        {
+          "title": "緯穎｜資料中心解決方案",
+          "url": "https://www.wiwynn.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "rubin",
+      "company": "技嘉",
+      "code": "2376",
+      "market": "上市",
+      "role": "官網列Vera Rubin NVL72的GIGAPOD組態；產品列示不等於已全面交付",
+      "sources": [
+        {
+          "title": "技嘉｜GIGAPOD",
+          "url": "https://www.gigabyte.com/Solutions/gigapod"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "odm",
+      "company": "廣達",
+      "code": "2382",
+      "market": "上市",
+      "role": "系統設計／製造｜伺服器及整櫃整合",
+      "sources": [
+        {
+          "title": "QCT｜AI 基礎建設",
+          "url": "https://www.qct.io/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "odm",
+      "company": "鴻海",
+      "code": "2317",
+      "market": "上市",
+      "role": "系統設計／製造｜伺服器及整櫃整合",
+      "sources": [
+        {
+          "title": "鴻海｜集團業務",
+          "url": "https://www.foxconn.com/en-us"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "odm",
+      "company": "緯穎",
+      "code": "6669",
+      "market": "上市",
+      "role": "系統設計／製造｜伺服器及整櫃整合",
+      "sources": [
+        {
+          "title": "緯穎｜資料中心解決方案",
+          "url": "https://www.wiwynn.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "odm",
+      "company": "緯創",
+      "code": "3231",
+      "market": "上市",
+      "role": "AI 主板與GPU平台的設計製造及系統整合",
+      "sources": [
+        {
+          "title": "緯創｜Enterprise & Networking",
+          "url": "https://www.wistron.com/en/Product%26Services/Enterprise%26Networking"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "odm",
+      "company": "英業達",
+      "code": "2356",
+      "market": "上市",
+      "role": "資料中心伺服器與整櫃設計整合",
+      "sources": [
+        {
+          "title": "英業達｜Artemis Rack",
+          "url": "https://ebg.inventec.com/en/solution/NVIDIA/Artemis%20%20Rack"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "odm",
+      "company": "技嘉",
+      "code": "2376",
+      "market": "上市",
+      "role": "技嘉／技鋼品牌伺服器與系統整合",
+      "sources": [
+        {
+          "title": "技嘉｜GIGAPOD",
+          "url": "https://www.gigabyte.com/Solutions/gigapod"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "odm",
+      "company": "營邦",
+      "code": "3693",
+      "market": "上櫃",
+      "role": "可客製GPU／儲存伺服器平台",
+      "sources": [
+        {
+          "title": "營邦 AIC｜GPU Server",
+          "url": "https://www.aicipc.com/products/server/gpu-server/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "memory",
+      "company": "南亞科",
+      "code": "2408",
+      "market": "上市",
+      "role": "晶粒製造｜DDR5等DRAM研發、設計與製造",
+      "sources": [
+        {
+          "title": "南亞科｜DDR5 產品",
+          "url": "https://www.nanya.com/en/Product/List/450/2478"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "memory",
+      "company": "威剛",
+      "code": "3260",
+      "market": "上櫃",
+      "role": "模組｜伺服器DDR5 R-DIMM及儲存模組",
+      "sources": [
+        {
+          "title": "威剛｜Enterprise Server & AI Server Solutions",
+          "url": "https://www.adata.com/en/applications/enterprise-server/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "memory",
+      "company": "群聯",
+      "code": "8299",
+      "market": "上櫃",
+      "role": "控制器／SSD｜NAND控制器與Pascari企業級SSD；不是NAND晶粒製造",
+      "sources": [
+        {
+          "title": "群聯 Pascari｜Data Center D-Series",
+          "url": "https://www.phisonenterprise.com/pascari-data-center-d-series/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "network",
+      "company": "智邦",
+      "code": "2345",
+      "market": "上市",
+      "role": "800G Ethernet交換器與VoQ網路系統",
+      "sources": [
+        {
+          "title": "智邦｜800G AI/ML Fabrics",
+          "url": "https://www.accton.com.tw/800g-ai-ml-fabrics/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "network",
+      "company": "台光電",
+      "code": "2383",
+      "market": "上市",
+      "role": "高速互連PCB上游低損耗板材",
+      "sources": [
+        {
+          "title": "台光電｜材料與產品定位",
+          "url": "https://www.emctw.com/zh-TW/about_milestone/index"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "network",
+      "company": "信邦",
+      "code": "3023",
+      "market": "上市",
+      "role": "線束／連接整合｜電子設備用連接方案；不據此主張800G光模組或交換晶片",
+      "sources": [
+        {
+          "title": "信邦｜線束與連接方案",
+          "url": "https://www.sinbon.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "network",
+      "company": "博智",
+      "code": "8155",
+      "market": "上櫃",
+      "role": "高速交換器用PCB；非交換晶片設計",
+      "sources": [
+        {
+          "title": "博智｜產品與應用",
+          "url": "https://www.accl.com.tw/tw/modules/pages/main"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "network",
+      "company": "貿聯-KY",
+      "code": "3665",
+      "market": "上市",
+      "role": "400G／800G DAC高速直連銅纜",
+      "sources": [
+        {
+          "title": "貿聯｜DAC 高速直連銅纜",
+          "url": "https://www.bizlinktech.com/product-categories/dac"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "network",
+      "company": "嘉澤",
+      "code": "3533",
+      "market": "上市",
+      "role": "伺服器內高速電連接；非交換晶片或NVLink協定",
+      "sources": [
+        {
+          "title": "嘉澤｜Near Stack ANS50001 / ANST0002",
+          "url": "https://www.lotes.cc/zh-tw/product.php?act=view&id=1101"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "network",
+      "company": "上詮",
+      "code": "3363",
+      "market": "上櫃",
+      "role": "高速光纖陣列與光學連接元件",
+      "sources": [
+        {
+          "title": "上詮｜ReLFACon",
+          "url": "https://www.foci.com.tw/ReLFACon_news"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "network",
+      "company": "波若威",
+      "code": "3163",
+      "market": "上櫃",
+      "role": "資料中心光纖配線與扇出線纜",
+      "sources": [
+        {
+          "title": "波若威｜MPO/MTP跳線與資料中心光學元件",
+          "url": "https://www.browave.com/product/category/11"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "network",
+      "company": "光聖",
+      "code": "6442",
+      "market": "上市",
+      "role": "資料通訊用多芯光纖連接與配線",
+      "sources": [
+        {
+          "title": "光聖 EZconn｜MPO Series",
+          "url": "https://www.ezconn.com/en/product/FiberOpticsProducts/Passive/MPOSeries"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "nvlink",
+      "company": "廣達",
+      "code": "2382",
+      "market": "上市",
+      "role": "系統整合｜採用NVLink的伺服器／整櫃平台；非NVLink協定或交換晶片設計",
+      "sources": [
+        {
+          "title": "QCT｜AI 基礎建設",
+          "url": "https://www.qct.io/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "nvlink",
+      "company": "緯穎",
+      "code": "6669",
+      "market": "上市",
+      "role": "系統整合｜採用NVLink的伺服器／整櫃平台；非NVLink協定或交換晶片設計",
+      "sources": [
+        {
+          "title": "緯穎｜資料中心解決方案",
+          "url": "https://www.wiwynn.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "nvlink",
+      "company": "英業達",
+      "code": "2356",
+      "market": "上市",
+      "role": "採用NVLink的整櫃與線纜整合，非協定或交換晶片設計",
+      "sources": [
+        {
+          "title": "英業達｜Artemis Rack",
+          "url": "https://ebg.inventec.com/en/solution/NVIDIA/Artemis%20%20Rack"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "nvlink",
+      "company": "技嘉",
+      "code": "2376",
+      "market": "上市",
+      "role": "採用NVLink的GPU伺服器與叢集整合",
+      "sources": [
+        {
+          "title": "技嘉｜GIGAPOD",
+          "url": "https://www.gigabyte.com/Solutions/gigapod"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "switch",
+      "company": "智邦",
+      "code": "2345",
+      "market": "上市",
+      "role": "採交換ASIC的網路系統設計製造，非交換ASIC設計",
+      "sources": [
+        {
+          "title": "智邦｜800G AI/ML Fabrics",
+          "url": "https://www.accton.com.tw/800g-ai-ml-fabrics/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "serdes",
+      "company": "M31",
+      "code": "6643",
+      "market": "上櫃",
+      "role": "矽智財｜SerDes PHY介面IP",
+      "sources": [
+        {
+          "title": "M31｜SerDes PHY IP",
+          "url": "https://www.m31tech.com/product/serdes-10g-5g/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "serdes",
+      "company": "聯發科",
+      "code": "2454",
+      "market": "上市",
+      "role": "矽智財／晶片設計｜SerDes、PCIe等高速I/O，搭配ASIC設計",
+      "sources": [
+        {
+          "title": "聯發科｜Data Center ASIC Solutions",
+          "url": "https://www.mediatek.com/mediatek-asic"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "serdes",
+      "company": "嘉澤",
+      "code": "3533",
+      "market": "上市",
+      "role": "連接器｜PCIe通道的實體連接器與線纜組；不是SerDes IP",
+      "sources": [
+        {
+          "title": "嘉澤｜Near Stack ANS50001 / ANST0002",
+          "url": "https://www.lotes.cc/zh-tw/product.php?act=view&id=1101"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "serdes",
+      "company": "貿聯-KY",
+      "code": "3665",
+      "market": "上市",
+      "role": "線纜｜PCIe及伺服器內部高速線纜；不是SerDes IP",
+      "sources": [
+        {
+          "title": "貿聯｜Data Center Internal Cables",
+          "url": "https://www.bizlinktech.com/products/data-center-internal-cables"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "optical",
+      "company": "聯亞",
+      "code": "3081",
+      "market": "上櫃",
+      "role": "上游材料｜InP／GaAs光電磊晶圓，供光電元件製造",
+      "sources": [
+        {
+          "title": "聯亞｜Overview",
+          "url": "https://www.lmoc.com.tw/index.php?lang=en&temp=intro"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "optical",
+      "company": "上詮",
+      "code": "3363",
+      "market": "上櫃",
+      "role": "光纖耦合｜光纖陣列與矽光子連接元件",
+      "sources": [
+        {
+          "title": "上詮｜ReLFACon",
+          "url": "https://www.foci.com.tw/ReLFACon_news"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "optical",
+      "company": "波若威",
+      "code": "3163",
+      "market": "上櫃",
+      "role": "光學連接｜光纖陣列、MPO/MTP等被動元件",
+      "sources": [
+        {
+          "title": "波若威｜MPO/MTP跳線與資料中心光學元件",
+          "url": "https://www.browave.com/product/category/11"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "optical",
+      "company": "光聖",
+      "code": "6442",
+      "market": "上市",
+      "role": "光纖配線｜MPO連接器、跳接線及配件",
+      "sources": [
+        {
+          "title": "光聖 EZconn｜MPO Series",
+          "url": "https://www.ezconn.com/en/product/FiberOpticsProducts/Passive/MPOSeries"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "optical",
+      "company": "台積電",
+      "code": "2330",
+      "market": "上市",
+      "role": "製程／封裝平台｜矽光子及光電整合平台；與光纖線纜廠不同",
+      "sources": [
+        {
+          "title": "台積電｜COUPE矽光子整合",
+          "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/SoIC.htm"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "hvdc",
+      "company": "台達電",
+      "code": "2308",
+      "market": "上市",
+      "role": "800 VDC資料中心電力架構合作與產品開發",
+      "sources": [
+        {
+          "title": "NVIDIA｜800 VDC 架構",
+          "url": "https://developer.nvidia.com/blog/nvidia-800-v-hvdc-architecture-will-power-the-next-generation-of-ai-factories/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "hvdc",
+      "company": "光寶科",
+      "code": "2301",
+      "market": "上市",
+      "role": "800 VDC生態系合作與電源架構開發",
+      "sources": [
+        {
+          "title": "NVIDIA｜800 VDC 架構",
+          "url": "https://developer.nvidia.com/blog/nvidia-800-v-hvdc-architecture-will-power-the-next-generation-of-ai-factories/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "psu",
+      "company": "台達電",
+      "code": "2308",
+      "market": "上市",
+      "role": "伺服器電源、機櫃電源系統及電壓轉換",
+      "sources": [
+        {
+          "title": "台達電｜Data Centers",
+          "url": "https://www.deltaww.com/en-US/solutions/data-centers"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "psu",
+      "company": "全漢",
+      "code": "3015",
+      "market": "上市",
+      "role": "電源模組｜CRPS伺服器電源",
+      "sources": [
+        {
+          "title": "全漢｜CRPS伺服器電源",
+          "url": "https://www.fsp-group.com/en/news-141.html"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "psu",
+      "company": "光寶科",
+      "code": "2301",
+      "market": "上市",
+      "role": "OCP機櫃Power Shelf與電源管理",
+      "sources": [
+        {
+          "title": "光寶｜Open Compute Project",
+          "url": "https://www.liteon.com/en/product/energy-management/data-center-power-supply-system/open-compute-project"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "busbar",
+      "company": "台達電",
+      "code": "2308",
+      "market": "上市",
+      "role": "PDU與機房／機櫃配電方案",
+      "sources": [
+        {
+          "title": "台達電｜Data Centers",
+          "url": "https://www.deltaww.com/en-US/solutions/data-centers"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "bbu",
+      "company": "台達電",
+      "code": "2308",
+      "market": "上市",
+      "role": "資料中心UPS與備援供電方案",
+      "sources": [
+        {
+          "title": "台達電｜Data Centers",
+          "url": "https://www.deltaww.com/en-US/solutions/data-centers"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "bbu",
+      "company": "全漢",
+      "code": "3015",
+      "market": "上市",
+      "role": "備援電源｜ICT設備用PSU＋BBU；不能據此當成高功率AI整櫃BBU",
+      "sources": [
+        {
+          "title": "全漢｜PSU plus BBU",
+          "url": "https://www.fsp-group.com/en/product/BBU.html"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "bbu",
+      "company": "順達",
+      "code": "3211",
+      "market": "上櫃",
+      "role": "BBU／UPS應用的備援電池模組及客製設計",
+      "sources": [
+        {
+          "title": "順達｜ESS / BBU / UPS application",
+          "url": "https://www.dynapack.com.tw/h/data?cat=3809&key=03w18&set=24"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "bbu",
+      "company": "新普",
+      "code": "6121",
+      "market": "上櫃",
+      "role": "大型資料中心BBU與備援電池模組",
+      "sources": [
+        {
+          "title": "新普｜產品應用",
+          "url": "https://www.simplo.com.tw/article_d.php?cid=84&id=696&lang=tw&tb=2"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "bbu",
+      "company": "光寶科",
+      "code": "2301",
+      "market": "上市",
+      "role": "機櫃Power Shelf＋BBU備援電力整合",
+      "sources": [
+        {
+          "title": "光寶｜Open Compute Project",
+          "url": "https://www.liteon.com/en/product/energy-management/data-center-power-supply-system/open-compute-project"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "cooling",
+      "company": "奇鋐",
+      "code": "3017",
+      "market": "上市",
+      "role": "散熱零組件／模組｜伺服器散熱與液冷方案",
+      "sources": [
+        {
+          "title": "奇鋐｜散熱產品",
+          "url": "https://www.avc.co/en-us/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "cooling",
+      "company": "台達電",
+      "code": "2308",
+      "market": "上市",
+      "role": "液冷CDU、液對液與液對氣散熱系統",
+      "sources": [
+        {
+          "title": "台達電｜Data Centers",
+          "url": "https://www.deltaww.com/en-US/solutions/data-centers"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "cooling",
+      "company": "緯穎",
+      "code": "6669",
+      "market": "上市",
+      "role": "系統整合｜伺服器與整櫃液冷配置；不等同每類散熱零件自製",
+      "sources": [
+        {
+          "title": "緯穎｜資料中心解決方案",
+          "url": "https://www.wiwynn.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "cooling",
+      "company": "英業達",
+      "code": "2356",
+      "market": "上市",
+      "role": "整櫃液冷與自研機櫃式CDU",
+      "sources": [
+        {
+          "title": "英業達｜Artemis Rack",
+          "url": "https://ebg.inventec.com/en/solution/NVIDIA/Artemis%20%20Rack"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "cooling",
+      "company": "技嘉",
+      "code": "2376",
+      "market": "上市",
+      "role": "伺服器／機櫃直接液冷整合",
+      "sources": [
+        {
+          "title": "技嘉｜GIGAPOD",
+          "url": "https://www.gigabyte.com/Solutions/gigapod"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "cooling",
+      "company": "雙鴻",
+      "code": "3324",
+      "market": "上櫃",
+      "role": "伺服器冷板、CDU與液冷循環模組",
+      "sources": [
+        {
+          "title": "雙鴻｜2024 Sustainability Report",
+          "url": "https://www.auras.com.tw/CMSFS/InformationCenters/English/ecfc7b18-d55e-4ca3-a673-b449f83d051c.pdf"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "cooling",
+      "company": "高力",
+      "code": "8996",
+      "market": "上市",
+      "role": "板式熱交換器，負責冷卻液迴路間換熱；可用於CDU",
+      "sources": [
+        {
+          "title": "高力｜BPHE：高效液冷資料中心核心",
+          "url": "https://www.kaori.com.tw/tw/modules/news/article.php?storyid=203"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "cooling",
+      "company": "健策",
+      "code": "3653",
+      "market": "上市",
+      "role": "零組件／模組｜晶片冷板、液冷模組及流體分配設計",
+      "sources": [
+        {
+          "title": "健策｜Liquid Cooling Module",
+          "url": "https://www.jentech.com.tw/liquid-cooling-module-1-1"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "pue",
+      "company": "台達電",
+      "code": "2308",
+      "market": "上市",
+      "role": "電力、冷卻與機房基礎設施整合",
+      "sources": [
+        {
+          "title": "台達電｜Data Centers",
+          "url": "https://www.deltaww.com/en-US/solutions/data-centers"
+        }
+      ]
+    },
+    {
+      "chapter": "infra",
+      "term": "pue",
+      "company": "緯穎",
+      "code": "6669",
+      "market": "上市",
+      "role": "系統整合｜運算、電力及冷卻共同影響機房效率",
+      "sources": [
+        {
+          "title": "緯穎｜資料中心解決方案",
+          "url": "https://www.wiwynn.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "raw",
+      "company": "環球晶",
+      "code": "6488",
+      "market": "上櫃",
+      "role": "材料製造｜矽晶圓原片",
+      "sources": [
+        {
+          "title": "環球晶・產品",
+          "url": "https://www.sas-globalwafers.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "raw",
+      "company": "崇越",
+      "code": "5434",
+      "market": "上市",
+      "role": "材料代理｜半導體矽晶圓與相關供應服務；不是自製矽晶圓",
+      "sources": [
+        {
+          "title": "崇越・材料與整合服務",
+          "url": "https://www.topco-global.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "raw",
+      "company": "台勝科",
+      "code": "3532",
+      "market": "上市",
+      "role": "材料製造｜8吋與12吋半導體矽晶圓原片",
+      "sources": [
+        {
+          "title": "台勝科｜公司沿革與矽晶圓製造",
+          "url": "https://www.fstech.com.tw/FPC_Fstech_Web/about_fst.html?page=pills-story"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "raw",
+      "company": "合晶",
+      "code": "6182",
+      "market": "上櫃",
+      "role": "材料製造｜拋光矽晶圓及客製原片",
+      "sources": [
+        {
+          "title": "合晶｜產品與客製化服務",
+          "url": "https://www.waferworks.com/tw/products-and-service/service"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "flow",
+      "company": "台積電",
+      "code": "2330",
+      "market": "上市",
+      "role": "晶圓製造與先進封裝",
+      "sources": [
+        {
+          "title": "台積電 2025 年報",
+          "url": "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20TSMC%20Annual%20Report.E.pdf"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "nanosheet",
+      "company": "台積電",
+      "code": "2330",
+      "market": "上市",
+      "role": "晶圓製造與先進封裝",
+      "sources": [
+        {
+          "title": "台積電 2025 年報",
+          "url": "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20TSMC%20Annual%20Report.E.pdf"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "epi",
+      "company": "環球晶",
+      "code": "6488",
+      "market": "上櫃",
+      "role": "材料製造｜供應外延矽晶圓；不是晶圓廠所有磊晶／氧化站的承包者",
+      "sources": [
+        {
+          "title": "環球晶・產品",
+          "url": "https://www.sas-globalwafers.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "epi",
+      "company": "合晶",
+      "code": "6182",
+      "market": "上櫃",
+      "role": "材料／服務｜矽磊晶圓與磊晶加工；不是晶圓廠所有氧化站設備",
+      "sources": [
+        {
+          "title": "合晶｜產品與客製化服務",
+          "url": "https://www.waferworks.com/tw/products-and-service/service"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "monitor",
+      "company": "辛耘",
+      "code": "3583",
+      "market": "上市",
+      "role": "加工服務｜12吋再生晶圓；與設備零件清洗不同",
+      "sources": [
+        {
+          "title": "辛耘・設備與再生晶圓",
+          "url": "https://www.scientech.com.tw/zh-hant"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "mask",
+      "company": "光罩",
+      "code": "2338",
+      "market": "上市",
+      "role": "製造服務｜一般半導體光罩與光罩資料處理；不據此主張EUV光罩或空白基板製造",
+      "sources": [
+        {
+          "title": "台灣光罩・創新管理",
+          "url": "https://www.tmcnet.com.tw/Sustainable/Management"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "resist",
+      "company": "崇越",
+      "code": "5434",
+      "market": "上市",
+      "role": "代理／配銷｜半導體光阻材料；不是台灣自製EUV光阻的證據",
+      "sources": [
+        {
+          "title": "崇越・材料與整合服務",
+          "url": "https://www.topco-global.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "resist",
+      "company": "永光",
+      "code": "1711",
+      "market": "上市",
+      "role": "製造｜G-line、I-line及厚膜光阻；不推定EUV光阻供貨",
+      "sources": [
+        {
+          "title": "永光化學・電子化學事業",
+          "url": "https://ecbu.ecic.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "developer",
+      "company": "三福化",
+      "code": "4755",
+      "market": "上市",
+      "role": "材料｜顯影液、洗邊劑及製程溶劑",
+      "sources": [
+        {
+          "title": "三福化・精密化學品與服務",
+          "url": "https://www.sfchem.com.tw/zh-hant/product/list/42"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "developer",
+      "company": "中華化",
+      "code": "1727",
+      "market": "上市",
+      "role": "材料｜電子化學顯影劑",
+      "sources": [
+        {
+          "title": "中華化・電子化學產品",
+          "url": "https://www.chciworld.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "developer",
+      "company": "永光",
+      "code": "1711",
+      "market": "上市",
+      "role": "材料｜光阻配套顯影液",
+      "sources": [
+        {
+          "title": "永光化學・電子化學事業",
+          "url": "https://ecbu.ecic.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "developer",
+      "company": "勝一",
+      "code": "1773",
+      "market": "上市",
+      "role": "製造｜PGME／PGMEA等晶邊清洗與配方溶劑",
+      "sources": [
+        {
+          "title": "勝一化工・市場應用",
+          "url": "https://www.shinychem.com.tw/zh-tw/html/application"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "pod",
+      "company": "家登",
+      "code": "3680",
+      "market": "上櫃",
+      "role": "載具製造｜光罩保護盒及晶圓傳載系統",
+      "sources": [
+        {
+          "title": "家登・晶圓與光罩載具",
+          "url": "https://www.gudeng.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "ald",
+      "company": "天虹",
+      "code": "6937",
+      "market": "上市",
+      "role": "整機｜自有ALD／PEALD原子層沉積設備",
+      "sources": [
+        {
+          "title": "天虹・產品與技術",
+          "url": "https://www.skytech.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "pvd",
+      "company": "天虹",
+      "code": "6937",
+      "market": "上市",
+      "role": "整機｜物理氣相沉積設備；不等同濺鍍靶材製造",
+      "sources": [
+        {
+          "title": "天虹・產品與技術",
+          "url": "https://www.skytech.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "precursor",
+      "company": "台特化",
+      "code": "4772",
+      "market": "上櫃",
+      "role": "材料｜矽乙烷、矽丙烷等矽源特氣；不泛稱已量產所有high-k／low-k前驅物",
+      "sources": [
+        {
+          "title": "台特化・公司簡介",
+          "url": "https://www.tscs.com.tw/about"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "specialgas",
+      "company": "台特化",
+      "code": "4772",
+      "market": "上櫃",
+      "role": "製造｜矽乙烷、矽丙烷、無水氟化氫等半導體特殊氣體",
+      "sources": [
+        {
+          "title": "台特化・公司簡介",
+          "url": "https://www.tscs.com.tw/about"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "specialgas",
+      "company": "漢唐",
+      "code": "2404",
+      "market": "上市",
+      "role": "供應系統工程｜氣體配管及廠務整合；不是氣體製造",
+      "sources": [
+        {
+          "title": "漢唐・工程承包範圍",
+          "url": "https://www.uisco.com.tw/en/Key_Services.html"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "specialgas",
+      "company": "朋億*",
+      "code": "6613",
+      "market": "上櫃",
+      "role": "供應系統整合｜水氣化廠務及氣體供應工程；不是特氣製造",
+      "sources": [
+        {
+          "title": "朋億・產品責任與創新",
+          "url": "https://www.novatech.com.tw/csr/product"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "specialgas",
+      "company": "銳澤",
+      "code": "7703",
+      "market": "上櫃",
+      "role": "設備及系統工程｜特殊氣體供應設備、配管與二次配；不製造氣體本身",
+      "sources": [
+        {
+          "title": "銳澤・服務項目",
+          "url": "https://www.rayzher.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "chamberparts",
+      "company": "崇越",
+      "code": "5434",
+      "market": "上市",
+      "role": "材料／零件代理｜石英等製程耗材；不是蝕刻整機製造",
+      "sources": [
+        {
+          "title": "崇越・材料與整合服務",
+          "url": "https://www.topco-global.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "chamberparts",
+      "company": "京鼎",
+      "code": "3413",
+      "market": "上市",
+      "role": "製造服務｜半導體前段設備關鍵模組及零部件；與設備原廠整機角色分開",
+      "sources": [
+        {
+          "title": "京鼎・集團介紹",
+          "url": "https://www.foxsemicon.com/zh-tw/aboutFITI.aspx"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "chamberparts",
+      "company": "瑞耘",
+      "code": "6532",
+      "market": "上櫃",
+      "role": "零件製造｜Etch、CVD／PVD真空製程零組件及表面處理",
+      "sources": [
+        {
+          "title": "瑞耘・半導體關鍵零組件製程技術",
+          "url": "https://www.calitech.com.tw/zh-tw/product/process-technology"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "chamberparts",
+      "company": "世禾",
+      "code": "3551",
+      "market": "上櫃",
+      "role": "服務｜設備零組件精密洗淨及再生處理",
+      "sources": [
+        {
+          "title": "世禾科技・公司服務",
+          "url": "https://www.sht.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "cmp",
+      "company": "中砂",
+      "code": "1560",
+      "market": "上市",
+      "role": "耗材製造｜CMP鑽石修整器，整理研磨墊表面",
+      "sources": [
+        {
+          "title": "中砂・CMP 修整器",
+          "url": "https://www.kinik.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "cmp",
+      "company": "三福化",
+      "code": "4755",
+      "market": "上市",
+      "role": "材料加工｜CMP研磨液代工；不是CMP整機或研磨墊廠",
+      "sources": [
+        {
+          "title": "三福化・精密化學品與服務",
+          "url": "https://www.sfchem.com.tw/zh-hant/product/list/42"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "slurry",
+      "company": "三福化",
+      "code": "4755",
+      "market": "上市",
+      "role": "代工｜研磨液製造服務；不推定全部配方自主開發",
+      "sources": [
+        {
+          "title": "三福化・精密化學品與服務",
+          "url": "https://www.sfchem.com.tw/zh-hant/product/list/42"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "slurry",
+      "company": "崇越",
+      "code": "5434",
+      "market": "上市",
+      "role": "代理／配銷｜CMP研磨液材料；非CMP整機",
+      "sources": [
+        {
+          "title": "崇越・材料與整合服務",
+          "url": "https://www.topco-global.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "pad",
+      "company": "中砂",
+      "code": "1560",
+      "market": "上市",
+      "role": "耗材製造｜鑽石修整碟；不應把公司直接標成所有研磨墊及刷具原廠",
+      "sources": [
+        {
+          "title": "中砂・CMP 修整器",
+          "url": "https://www.kinik.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "wetclean",
+      "company": "辛耘",
+      "code": "3583",
+      "market": "上市",
+      "role": "整機｜單晶圓／批次濕製程設備",
+      "sources": [
+        {
+          "title": "辛耘・設備與再生晶圓",
+          "url": "https://www.scientech.com.tw/zh-hant"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "wetclean",
+      "company": "三福化",
+      "code": "4755",
+      "market": "上市",
+      "role": "材料｜濕製程精密化學品；不等同乾蝕刻氣體",
+      "sources": [
+        {
+          "title": "三福化・精密化學品與服務",
+          "url": "https://www.sfchem.com.tw/zh-hant/product/list/42"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "wetclean",
+      "company": "中華化",
+      "code": "1727",
+      "market": "上市",
+      "role": "製造｜電子級硫酸及晶圓濕式清洗化學品",
+      "sources": [
+        {
+          "title": "中華化・電子化學產品",
+          "url": "https://www.chciworld.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "wetclean",
+      "company": "勝一",
+      "code": "1773",
+      "market": "上市",
+      "role": "材料｜IPA等電子級洗淨溶劑",
+      "sources": [
+        {
+          "title": "勝一化工・市場應用",
+          "url": "https://www.shinychem.com.tw/zh-tw/html/application"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "wetclean",
+      "company": "達興材料",
+      "code": "5234",
+      "market": "上市",
+      "role": "材料｜半導體濕製程高純度化學品",
+      "sources": [
+        {
+          "title": "達興材料・半導體材料",
+          "url": "https://www.daxinmat.com/products/semiconductor-materials"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "wetclean",
+      "company": "弘塑",
+      "code": "3131",
+      "market": "上櫃",
+      "role": "整機｜單晶圓與批次濕式清洗設備",
+      "sources": [
+        {
+          "title": "弘塑・濕製程設備與應用",
+          "url": "https://www.gptc.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "strip",
+      "company": "三福化",
+      "code": "4755",
+      "market": "上市",
+      "role": "材料｜液態光阻剝離劑",
+      "sources": [
+        {
+          "title": "三福化・精密化學品與服務",
+          "url": "https://www.sfchem.com.tw/zh-hant/product/list/42"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "strip",
+      "company": "中華化",
+      "code": "1727",
+      "market": "上市",
+      "role": "材料｜濕式去光阻化學品；不作乾式灰化設備代表",
+      "sources": [
+        {
+          "title": "中華化・電子化學產品",
+          "url": "https://www.chciworld.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "strip",
+      "company": "勝一",
+      "code": "1773",
+      "market": "上市",
+      "role": "配方原料｜NMP等剝離液用溶劑；不等同完整去光阻液",
+      "sources": [
+        {
+          "title": "勝一化工・市場應用",
+          "url": "https://www.shinychem.com.tw/zh-tw/html/application"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "strip",
+      "company": "達興材料",
+      "code": "5234",
+      "market": "上市",
+      "role": "製造｜光阻剝離液及特用去除液",
+      "sources": [
+        {
+          "title": "達興材料・半導體材料",
+          "url": "https://www.daxinmat.com/products/semiconductor-materials"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "strip",
+      "company": "弘塑",
+      "code": "3131",
+      "market": "上櫃",
+      "role": "整機｜濕式光阻剝離與乾膜去除設備",
+      "sources": [
+        {
+          "title": "弘塑・濕製程設備與應用",
+          "url": "https://www.gptc.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "strip",
+      "company": "鈦昇",
+      "code": "8027",
+      "market": "上櫃",
+      "role": "製程支援設備｜封裝去膠、電漿清洗；用途與前段光阻灰化需分辨",
+      "sources": [
+        {
+          "title": "鈦昇・2025半導體展產品公告",
+          "url": "https://www.enr.com.tw/news-detail/show-1682843.htm"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "filter",
+      "company": "崇越",
+      "code": "5434",
+      "market": "上市",
+      "role": "材料代理｜高純度製程耗材及汙染控制相關產品；不是所有PFA管路自製",
+      "sources": [
+        {
+          "title": "崇越・材料與整合服務",
+          "url": "https://www.topco-global.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "filter",
+      "company": "銳澤",
+      "code": "7703",
+      "market": "上櫃",
+      "role": "代理／配管工程｜電子級閥件、設備耗材與氣體配管；不泛稱濾芯自製",
+      "sources": [
+        {
+          "title": "銳澤・服務項目",
+          "url": "https://www.rayzher.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "metal",
+      "company": "弘塑",
+      "code": "3131",
+      "market": "上櫃",
+      "role": "整機｜金屬電鍍與濕製程設備；不是乾式金屬蝕刻整機",
+      "sources": [
+        {
+          "title": "弘塑・濕製程設備與應用",
+          "url": "https://www.gptc.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "metrology",
+      "company": "均豪",
+      "code": "5443",
+      "market": "上櫃",
+      "role": "整機｜晶圓外觀、RDL／凸塊缺陷檢查及光學量測；不是探針卡電性測試",
+      "sources": [
+        {
+          "title": "均豪｜半導體AOI自動光學檢測設備",
+          "url": "https://www.gpmcorp.com.tw/products_detail.php?plevel1Id=B&productId=3"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "probe",
+      "company": "旺矽",
+      "code": "6223",
+      "market": "上櫃",
+      "role": "探針卡與測試量測",
+      "sources": [
+        {
+          "title": "旺矽・半導體測試",
+          "url": "https://www.mpi.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "probe",
+      "company": "精測",
+      "code": "6510",
+      "market": "上櫃",
+      "role": "製造｜晶圓探針卡與IC測試介面板",
+      "sources": [
+        {
+          "title": "中華精測・產品介紹",
+          "url": "https://www.chpt.com/xmdoc?xsmsid=0G328551704882485281"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "probe",
+      "company": "京元電子",
+      "code": "2449",
+      "market": "上市",
+      "role": "代測服務｜晶圓電性針測",
+      "sources": [
+        {
+          "title": "京元電子・公司簡介",
+          "url": "https://www.kyec.com.tw/zh-tw/About"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "probe",
+      "company": "力成",
+      "code": "6239",
+      "market": "上市",
+      "role": "代測服務｜記憶體與邏輯元件晶圓針測",
+      "sources": [
+        {
+          "title": "力成・封裝與測試技術",
+          "url": "https://www.pti.com.tw/zh"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "dicing",
+      "company": "辛耘",
+      "code": "3583",
+      "market": "上市",
+      "role": "整機｜薄化用暫時貼合、剝離與清洗設備；不是單純晶圓切割代工",
+      "sources": [
+        {
+          "title": "辛耘｜Pyxis暫時性貼合設備",
+          "url": "https://www.scientech.com.tw/zh-hant/Products/Scientech/TemporaryBonding"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "dicing",
+      "company": "志聖",
+      "code": "2467",
+      "market": "上市",
+      "role": "整機｜Carrier Bonder暫時貼合設備，支援薄化製程",
+      "sources": [
+        {
+          "title": "志聖・Carrier Bonder",
+          "url": "https://www.csun.com.tw/product/carrier-bonder/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "dicing",
+      "company": "天虹",
+      "code": "6937",
+      "market": "上市",
+      "role": "整機｜Bonder／De-Bonder，提供薄化時的暫時載板支撐與解接合",
+      "sources": [
+        {
+          "title": "天虹・產品與技術",
+          "url": "https://www.skytech.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "dicing",
+      "company": "鈦昇",
+      "code": "8027",
+      "market": "上櫃",
+      "role": "整機｜封裝雷射切割、雷射解膠設備",
+      "sources": [
+        {
+          "title": "鈦昇・2025半導體展產品公告",
+          "url": "https://www.enr.com.tw/news-detail/show-1682843.htm"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "bonding",
+      "company": "辛耘",
+      "code": "3583",
+      "market": "上市",
+      "role": "製程設備｜暫時貼合、剝離及封裝濕製程；與永久混合接合分開",
+      "sources": [
+        {
+          "title": "辛耘・設備與再生晶圓",
+          "url": "https://www.scientech.com.tw/zh-hant"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "bonding",
+      "company": "台積電",
+      "code": "2330",
+      "market": "上市",
+      "role": "製造服務｜凸塊及CoWoS先進封裝平台",
+      "sources": [
+        {
+          "title": "台積電 2025 年報",
+          "url": "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20TSMC%20Annual%20Report.E.pdf"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "bonding",
+      "company": "日月光投控",
+      "code": "3711",
+      "market": "上市",
+      "role": "製造服務｜先進封裝與測試；不把全集團業務等同CoWoS",
+      "sources": [
+        {
+          "title": "日月光・封裝測試",
+          "url": "https://www.aseglobal.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "bonding",
+      "company": "弘塑",
+      "code": "3131",
+      "market": "上櫃",
+      "role": "製程支援設備｜凸塊電鍍後去光阻等封裝濕製程；不是接合主機",
+      "sources": [
+        {
+          "title": "弘塑・濕製程設備與應用",
+          "url": "https://www.gptc.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "bonding",
+      "company": "萬潤",
+      "code": "6187",
+      "market": "上櫃",
+      "role": "整機｜封裝貼合、精密點膠及製程整合設備",
+      "sources": [
+        {
+          "title": "萬潤・先進封裝與光電整合設備",
+          "url": "https://www.allring-tech.com.tw/about1.htm"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "bonding",
+      "company": "志聖",
+      "code": "2467",
+      "market": "上市",
+      "role": "製程支援設備｜載板貼合與封裝烘烤設備；不泛稱混合接合全部工序",
+      "sources": [
+        {
+          "title": "志聖・Carrier Bonder",
+          "url": "https://www.csun.com.tw/product/carrier-bonder/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "bonding",
+      "company": "均華",
+      "code": "6640",
+      "market": "上櫃",
+      "role": "整機｜高精度黏晶機及晶粒挑揀設備；不視為所有CoWoS製程代工廠",
+      "sources": [
+        {
+          "title": "均華・半導體封裝設備",
+          "url": "https://www.gmmcorp.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "bonding",
+      "company": "力成",
+      "code": "6239",
+      "market": "上市",
+      "role": "封裝服務｜晶圓凸點、晶圓級及覆晶封裝",
+      "sources": [
+        {
+          "title": "力成・封裝與測試技術",
+          "url": "https://www.pti.com.tw/zh"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "package",
+      "company": "景碩",
+      "code": "3189",
+      "market": "上市",
+      "role": "材料製造｜IC封裝載板；不是底填膠或封裝設備",
+      "sources": [
+        {
+          "title": "景碩・FCBGA 載板",
+          "url": "https://www.kinsus.com.tw/en/product/products/technologies/fcbga"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "package",
+      "company": "萬潤",
+      "code": "6187",
+      "market": "上櫃",
+      "role": "設備｜封裝膠材精密施作設備；不製造此條目的IC載板或底填膠",
+      "sources": [
+        {
+          "title": "萬潤・先進封裝與光電整合設備",
+          "url": "https://www.allring-tech.com.tw/about1.htm"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "package",
+      "company": "均華",
+      "code": "6640",
+      "market": "上櫃",
+      "role": "設備｜封膠及沖切成型設備；不等同封裝膠材料製造",
+      "sources": [
+        {
+          "title": "均華・半導體封裝設備",
+          "url": "https://www.gmmcorp.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "package",
+      "company": "欣興",
+      "code": "3037",
+      "market": "上市",
+      "role": "材料製造｜IC封裝載板；與底填膠、封裝機台分開",
+      "sources": [
+        {
+          "title": "欣興｜產品與品質管理、ABF載板案例",
+          "url": "https://www.uniflex.com.tw/esg/en/product01.html"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "package",
+      "company": "南電",
+      "code": "8046",
+      "market": "上市",
+      "role": "材料製造｜IC封裝載板；與底填膠、封裝機台分開",
+      "sources": [
+        {
+          "title": "南電｜ABF載板技術路線圖",
+          "url": "https://www.nanyapcb.com.tw/nypcb/chinese/Technology/ABFSRoadmap"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "outsourcing",
+      "company": "辛耘",
+      "code": "3583",
+      "market": "上市",
+      "role": "加工服務｜再生晶圓；不等同封測委外",
+      "sources": [
+        {
+          "title": "辛耘・設備與再生晶圓",
+          "url": "https://www.scientech.com.tw/zh-hant"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "outsourcing",
+      "company": "日月光投控",
+      "code": "3711",
+      "market": "上市",
+      "role": "加工服務｜封裝與測試",
+      "sources": [
+        {
+          "title": "日月光・封裝測試",
+          "url": "https://www.aseglobal.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "outsourcing",
+      "company": "京元電子",
+      "code": "2449",
+      "market": "上市",
+      "role": "委外服務｜半導體測試與預燒",
+      "sources": [
+        {
+          "title": "京元電子・公司簡介",
+          "url": "https://www.kyec.com.tw/zh-tw/About"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "outsourcing",
+      "company": "力成",
+      "code": "6239",
+      "market": "上市",
+      "role": "委外服務｜封裝與測試一站式服務",
+      "sources": [
+        {
+          "title": "力成・封裝與測試技術",
+          "url": "https://www.pti.com.tw/zh"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "cleanroom",
+      "company": "帆宣",
+      "code": "6196",
+      "market": "上市",
+      "role": "工程整合｜無塵室及廠務系統",
+      "sources": [
+        {
+          "title": "帆宣・產品與服務",
+          "url": "https://www.micb2b.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "cleanroom",
+      "company": "漢唐",
+      "code": "2404",
+      "market": "上市",
+      "role": "統包工程｜高科技廠房無塵室、空調與機電整合",
+      "sources": [
+        {
+          "title": "漢唐・工程承包範圍",
+          "url": "https://www.uisco.com.tw/en/Key_Services.html"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "cleanroom",
+      "company": "亞翔",
+      "code": "6139",
+      "market": "上市",
+      "role": "統包工程｜半導體廠房無塵室與機電系統",
+      "sources": [
+        {
+          "title": "亞翔・公司與工程介紹",
+          "url": "https://www.lkeng.com.tw/tw/stakeholders"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "cleanroom",
+      "company": "洋基工程",
+      "code": "6691",
+      "market": "上市",
+      "role": "統包工程｜無塵室、空調及高科技廠房機電",
+      "sources": [
+        {
+          "title": "洋基工程・關於我們",
+          "url": "https://www.yankey.com/chinese/about/about-us/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "cleanroom",
+      "company": "聖暉*",
+      "code": "5536",
+      "market": "上櫃",
+      "role": "統包工程｜無塵室與空調工程",
+      "sources": [
+        {
+          "title": "聖暉・公司基本資料",
+          "url": "https://www.acter.com.tw/investors/financial-report/company-profile"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "upw",
+      "company": "漢唐",
+      "code": "2404",
+      "market": "上市",
+      "role": "工程承包｜超純水系統工程；不等同純水膜／樹脂製造",
+      "sources": [
+        {
+          "title": "漢唐・工程承包範圍",
+          "url": "https://www.uisco.com.tw/en/Key_Services.html"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "upw",
+      "company": "朋億*",
+      "code": "6613",
+      "market": "上櫃",
+      "role": "系統工程｜水資源處理及回收水再利用；不推定所有超純水核心設備自製",
+      "sources": [
+        {
+          "title": "朋億・產品責任與創新",
+          "url": "https://www.novatech.com.tw/csr/product"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "electricity",
+      "company": "帆宣",
+      "code": "6196",
+      "market": "上市",
+      "role": "工程整合｜廠務機電與公用系統",
+      "sources": [
+        {
+          "title": "帆宣・產品與服務",
+          "url": "https://www.micb2b.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "electricity",
+      "company": "漢唐",
+      "code": "2404",
+      "market": "上市",
+      "role": "系統工程｜廠務電力與機電整合",
+      "sources": [
+        {
+          "title": "漢唐・工程承包範圍",
+          "url": "https://www.uisco.com.tw/en/Key_Services.html"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "electricity",
+      "company": "亞翔",
+      "code": "6139",
+      "market": "上市",
+      "role": "系統工程｜廠房機電工程整合",
+      "sources": [
+        {
+          "title": "亞翔・公司與工程介紹",
+          "url": "https://www.lkeng.com.tw/tw/stakeholders"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "electricity",
+      "company": "洋基工程",
+      "code": "6691",
+      "market": "上市",
+      "role": "系統工程｜廠務機電整合",
+      "sources": [
+        {
+          "title": "洋基工程・關於我們",
+          "url": "https://www.yankey.com/chinese/about/about-us/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "electricity",
+      "company": "聖暉*",
+      "code": "5536",
+      "market": "上櫃",
+      "role": "系統工程｜機電整合",
+      "sources": [
+        {
+          "title": "聖暉・公司基本資料",
+          "url": "https://www.acter.com.tw/investors/financial-report/company-profile"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "electricity",
+      "company": "銳澤",
+      "code": "7703",
+      "market": "上櫃",
+      "role": "系統工程｜廠房機電與基礎水電配管",
+      "sources": [
+        {
+          "title": "銳澤・服務項目",
+          "url": "https://www.rayzher.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "abatement",
+      "company": "朋億*",
+      "code": "6613",
+      "market": "上櫃",
+      "role": "系統工程｜廢氣處理系統；與機台端局部尾氣整機原廠分開",
+      "sources": [
+        {
+          "title": "台灣電子設備協會｜朋億產品資料",
+          "url": "https://www.teeia.org.tw/tw/manufacture/朋億股份有限公司?theme=顯示光電設備"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "waste",
+      "company": "三福化",
+      "code": "4755",
+      "market": "上市",
+      "role": "回收服務｜TMAH顯影劑廢液回收",
+      "sources": [
+        {
+          "title": "三福化・精密化學品與服務",
+          "url": "https://www.sfchem.com.tw/zh-hant/product/list/42"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "waste",
+      "company": "漢唐",
+      "code": "2404",
+      "market": "上市",
+      "role": "工程承包｜廢水處理WWT系統工程",
+      "sources": [
+        {
+          "title": "漢唐・工程承包範圍",
+          "url": "https://www.uisco.com.tw/en/Key_Services.html"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "waste",
+      "company": "朋億*",
+      "code": "6613",
+      "market": "上櫃",
+      "role": "系統工程｜廢水處理、再生利用與污泥乾燥",
+      "sources": [
+        {
+          "title": "朋億・產品責任與創新",
+          "url": "https://www.novatech.com.tw/csr/product"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "amhs",
+      "company": "帆宣",
+      "code": "6196",
+      "market": "上市",
+      "role": "自動化整合｜廠內搬運與工廠系統；不據此推定所有MES軟體自製",
+      "sources": [
+        {
+          "title": "帆宣・產品與服務",
+          "url": "https://www.micb2b.com/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "maintenance",
+      "company": "世禾",
+      "code": "3551",
+      "market": "上櫃",
+      "role": "維護服務｜工件清洗與再生，延長零件可用期間",
+      "sources": [
+        {
+          "title": "世禾科技・公司服務",
+          "url": "https://www.sht.com.tw/"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "maintenance",
+      "company": "聖暉*",
+      "code": "5536",
+      "market": "上櫃",
+      "role": "工程維護｜廠務系統維修保養",
+      "sources": [
+        {
+          "title": "聖暉・公司基本資料",
+          "url": "https://www.acter.com.tw/investors/financial-report/company-profile"
+        }
+      ]
+    },
+    {
+      "chapter": "cost",
+      "term": "recovery",
+      "company": "三福化",
+      "code": "4755",
+      "market": "上市",
+      "role": "回收服務｜顯影劑TMAH再利用；政府補助不是此公司的產品",
+      "sources": [
+        {
+          "title": "三福化・精密化學品與服務",
+          "url": "https://www.sfchem.com.tw/zh-hant/product/list/42"
+        }
+      ]
+    }
+  ]
+}
